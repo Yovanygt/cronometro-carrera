@@ -1,0 +1,143 @@
+body{
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    text-align:center;
+    margin:0;
+    padding:0;
+
+}
+
+h1{
+
+    margin-top:40px;
+    font-weight:500;
+    letter-spacing:1px;
+
+}
+
+/* BANDERA ANIMADA */
+
+.bandera{
+
+    font-size:32px;
+    margin-top:10px;
+    animation:moverBandera 1.2s infinite alternate;
+
+}
+
+@keyframes moverBandera{
+
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50%{
+        transform: translateY(-6px) rotate(-4deg);
+    }
+
+    100%{
+        transform: translateY(0px) rotate(4deg);
+    }
+
+}
+
+/* CRONOMETRO */
+
+.cronometro{
+
+    font-size:70px;
+    font-weight:bold;
+    margin:30px 0;
+    font-family: monospace;
+    color:#00ffd5;
+
+}
+
+/* BOTONES */
+
+.controles{
+
+    margin-bottom:30px;
+
+}
+
+button{
+
+    background:#00ffd5;
+    color:#003333;
+    border:none;
+    padding:10px 20px;
+    margin:6px;
+    font-size:14px;
+    border-radius:25px;
+    cursor:pointer;
+    transition:0.2s;
+
+}
+
+button:hover{
+
+    background:#00c7a5;
+    transform:translateY(-2px);
+
+}
+
+button:active{
+
+    transform:scale(0.95);
+
+}
+
+/* TITULO RESULTADOS */
+
+h2{
+
+    margin-top:30px;
+    font-weight:400;
+
+}
+
+/* TABLA */
+
+table{
+
+    margin:auto;
+    margin-top:20px;
+    border-collapse:collapse;
+    width:420px;
+    background:#ffffff10;
+    backdrop-filter:blur(6px);
+    border-radius:10px;
+    overflow:hidden;
+
+}
+
+th{
+
+    background:#00ffd5;
+    color:#003333;
+    padding:12px;
+    font-weight:600;
+
+}
+
+td{
+
+    padding:10px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+
+}
+
+tr:hover{
+
+    background:rgba(255,255,255,0.08);
+
+}
+
+td:nth-child(1){
+
+    font-weight:bold;
+
+}
