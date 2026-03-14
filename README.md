@@ -27,4 +27,4 @@ El sistema funciona como un cronómetro que inicia cuando comienza la carrera y 
 
 ## Acceso a la aplicación
 
-La aplicación se encuentra disponible en:
+La aplicación se encuentra disponible en: https://github.com/Yovanygt/cronometro-carrera.git
